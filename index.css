@@ -10,6 +10,7 @@
     --secondary-color: #6c757d;
     --border-color: #dee2e6;
     --shadow-color: rgba(0, 0, 0, 0.1);
+    --bg-assist-color: #403E3B;
 }
 
 
@@ -375,32 +376,126 @@ header {
     height: 96px;
 }
 
+.tab-5 {
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/assist/img/tab5.png);
+}
 
+.tab-5-text {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-right: 60px;
+    position: relative;
+    left: 1080px;
+}
 
+.tab-5-title {
+    height: 20px;
+    
 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 
+    color: var(--text-color);
+}
 
+.tab-6 {
+    width: 1440px;
+    height: 410px;
+    background-color: var(--bg-assist-color);
+    
+}
 
+.tab-6-title1 {
+    width: 129px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 
+    letter-spacing: 2px;
+    text-transform: uppercase;
 
+    color: #ECE7E4;
+}
 
+.tab-6-title2 {
+    width: 299px;
+    height: 38px;
 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
 
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
 
+.tab-6-text {
+    width: 451px;
+    height: 72px;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
 
+    color: #ECE7E4;
+}
 
+.tab-6-tab {
+    width: 1168px;
+    height: 290px;
+    display: flex;
+}
 
+.tab-6-box {
+    width: 460px;
+    height: 160px;
+    margin: 65px 0;
+    padding: 10px 0;
+}
 
+.tab-6-img {
+    width: 432px;
+    height: 292px;
+    margin-left: 132px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.logo1 {
+    margin: 64px 48px 64px 40px;
+}
 
+.logo2 {
+    margin: 40px 40px 48px 48px;
+}
 
+.logo3 {
+    margin: 64px 48px 40px 40px;
+}
 
-
-
-
-
-
+.logo4 {
+    margin: 48px 40px 40px 48px;
+}
 
 
 
