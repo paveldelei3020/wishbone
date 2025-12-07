@@ -2,13 +2,14 @@
 
 
 :root {
+    --bg-button: #1a1a1a;
+    --bg-button-color: #ffffff;
     --bg-color: #ffffff;
     --bg-color2: #ffffff;
     --bg-main-color: #ECE7E4;
     --bg-main2-color: #CEC4BC;
     --text-color: #1B1A1A;
     --text-color-assist:#645C55;
-    --primary-color: #007bff;
     --secondary-color: #6c757d;
     --border-color: #dee2e6;
     --shadow-color: rgba(0, 0, 0, 0.1);
@@ -16,6 +17,8 @@
 }
 
 [data-theme="dark"] {
+    --bg-button: #ffffff;
+    --bg-button-color: #1a1a1a;
     --bg-color: #1a1a1a;
     --bg-color2: #342c28;
     --bg-main-color: #342c28;
@@ -989,10 +992,10 @@ color: var(--text-color-assist);
     justify-content: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--bg-button);
+    color: var(--bg-button-color);
     border: none;
-    border-radius: 50px;
+    border-radius: 25px;
     cursor: pointer;
     font-size: 1rem;
     font-weight: 500;

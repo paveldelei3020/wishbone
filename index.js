@@ -9,10 +9,10 @@ updateButtonText(currentTheme);
 function updateButtonText(theme) {
     if (theme === 'dark') {
         themeIcon.textContent = '☀️';
-        themeText.textContent = 'Светлая тема';
+        themeText.textContent = 'A light theme';
     } else {
         themeIcon.textContent = '🌙';
-        themeText.textContent = 'Темная тема';
+        themeText.textContent = 'Dark theme';
     }
 }
 
