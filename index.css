@@ -3,7 +3,9 @@
 
 :root {
     --bg-color: #ffffff;
+    --bg-color2: #ffffff;
     --bg-main-color: #ECE7E4;
+    --bg-main2-color: #CEC4BC;
     --text-color: #1B1A1A;
     --text-color-assist:#645C55;
     --primary-color: #007bff;
@@ -13,10 +15,11 @@
     --bg-assist-color: #403E3B;
 }
 
-
 [data-theme="dark"] {
     --bg-color: #1a1a1a;
+    --bg-color2: #342c28;
     --bg-main-color: #342c28;
+    --bg-main2-color: #342c28;
     --text-color: #ffffff;
     --text-color-assist: #ffffff;
     --primary-color: #0d6efd;
@@ -41,6 +44,16 @@ body {
     min-height: 100vh;
 }
 
+.title {
+    width: 256px;
+    height: 22px;
+
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 22px;
+}
+
 .head {
     display: flex;
     justify-content: space-around;
@@ -63,6 +76,16 @@ header {
 
 .href {
     margin: 0 16px ;
+    height: 24px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 .tab-1 {
@@ -571,7 +594,11 @@ header {
     height: 112px;
 }
 
-.tab-8-text {display: flex;justify-content: space-between;flex-wrap: wrap;}
+.tab-8-text {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 .tab-8-title1 {
     width: 351px;
@@ -685,9 +712,6 @@ color: var(--text-color-assist);
     color: var(--text-color);
 }
 
-
-
-
 .tab-9 {
     width: 1440px;
     height: 592px;
@@ -794,10 +818,169 @@ color: var(--text-color-assist);
     color: var(--text-color-assist);
 }
 
+.tab-10 {
+    width: 1440px;
+    height: 314px;
+    background-color: var(--bg-main2-color);
+    padding: 100px 136px;
+}
+
+.tab-10-box {
+    width: 1168px;
+    height: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tab-10-box-text {
+    width: 576px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.tab-10-box-text1 {
+    height: 20px;
+    width: 124px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: var(--text-color-assist);
+}
+
+.tab-10-box-text2 {
+    height: 84px;
+    width: 569px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+
+    color: var(--text-color);
+}
+
+.tab-10-box-title {
+    width: 145px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-10-box-title1 {
+    height: 24px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+
+    color: var(--text-color);
+}
 
 
+.tab-11 {
+    width: 1440px;
+    height: 204px;
+    padding: 60px 136px;
+    background-color: var(--bg-color2);
+}
 
+.tab-11-box {
+    width: 1168px;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.tab-11-box-main {
+    width: 694.39px;
+    height: 84px;
+}
+
+.tab-11-box-title {
+    width: 256px;
+    height: 24px;
+    
+}
+
+.tab-11-box-text {
+    width: 435.39px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.tab-11-box-text1 {
+    height: 20px;
+    width: 85px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: var(--text-color-assist);
+}
+
+.tab-11-box-text2 {
+    height: 20px;
+    width: 61px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: var(--text-color-assist);
+}
+
+.tab-11-box-text3 {
+    height: 20px;
+    width: 298px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--text-color-assist);
+}
+
+.tab-11-box-text4 {
+    height: 20px;
+    width: 64px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: var(--text-color-assist);
+}
+
+.tab-11-box-img {
+    width: 112px;
+    height: 24.61px;
+    margin-top: 59.39px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-11-box-img1 {
+    width: 24px;
+    height: 25px;
+    color: var(--text-color);
+}
 
 
 .theme-toggle {
