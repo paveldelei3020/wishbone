@@ -407,7 +407,7 @@ header {
     height: 600px;
     display: flex;
     justify-content: space-between;
-    background-image: url(/assist/img/tab5.png);
+    background-image: url(./assist/img/tab5.png);
 }
 
 .tab-5-text {
@@ -528,7 +528,7 @@ header {
     height: 600px;
     display: flex;
     justify-content: space-between;
-    background-image: url(/assist/img/tab7.png);
+    background-image: url(./assist/img/tab7.png);
 }
 
 .tab-7-text {
@@ -644,11 +644,11 @@ header {
 }
 
 .cart-8-1 {
-    background-image: url(/assist/img/cart1.png);
+    background-image: url(./assist/img/cart1.png);
 }
 
 .cart-8-2 {
-    background-image: url(/assist/img/cart2.png);
+    background-image: url(./assist/img/cart2.png);
     margin: 0 16px 0 15px;
 }
 
@@ -659,7 +659,7 @@ header {
 }
 
 .cart-8-3 {
-    background-image: url(/assist/img/cart3.png);
+    background-image: url(./assist/img/cart3.png);
 }
 
 .tab-8-cart-text1 {
